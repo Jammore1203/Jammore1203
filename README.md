@@ -1,19 +1,107 @@
-<h1 align="center">Hi 👋, I'm Joseph</h1>
-<h3 align="center">A passionate frontend developer from the UK</h3>
+<!-- gruvbox: bg #282828 · fg #ebdbb2 · red #fb4934 · green #b8bb26 · yellow #fabd2f · blue #83a598 · orange #fe8019 -->
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jammore1203&label=Profile%20views&color=0e75b6&style=flat" alt="jammore1203" /> </p>
+<div align="center">
 
-- 🔭 I’m currently working on **Redfox**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=FABD2F&center=true&vCenter=true&width=620&lines=hi%2C+I'm+Joe+%F0%9F%91%8B;I+build+weird+things+that+actually+run;Rust+%C2%B7+Python+%C2%B7+PHP+%C2%B7+C%23+%C2%B7+JS;btw+I+use+Arch" alt="typing" />
 
-- 🌱 I’m currently learning **Laravel**
+<br/>
+<a href="https://josephcreasy.co.uk"><img src="https://img.shields.io/badge/josephcreasy.co.uk-282828?style=for-the-badge&logo=googlechrome&logoColor=fabd2f" alt="website"/></a>
 
-- 👨‍💻 All of my projects are available at [https://github.com/Jammore1203](https://github.com/Jammore1203)
+</div>
 
-- 📫 How to reach me **j.creasy1203@gmail.com**
+```yaml
+joe@jammore1203
+───────────────────────────────
+OS        Arch Linux · KDE Plasma (gruvbox, obviously)
+Role      Developer @ RedFox Software Solutions
+Langs     Rust · Python · PHP · C# · JavaScript · Bash
+Into      agents · game dev · simulation · modding · self-hosting
+Now       Jarvis, a personal agent with a real memory
+Editor    Neovim + Claude Code
+Location  UK 🇬🇧
+Web       josephcreasy.co.uk
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+### ▸ things I've built
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[hardpoint](https://github.com/Jammore1203/hardpoint)** · Rust<br/>
+A 2002-console-style multiplayer arena shooter. 12 maps, 5 modes, 25 weapons,
+objective-playing bots and an authoritative UDP server. **Every** texture,
+mesh, sound and music track is generated procedurally. No asset folder.
+
+</td>
+<td width="50%" valign="top">
+
+**[flybrain-trader](https://github.com/Jammore1203/flybrain-trader)** · Python<br/>
+The whole FlyWire fruit-fly connectome (138k neurons, 15M synapses) simulated on
+the GPU and taught to trade BTC with dopamine. A population evolves on a year of
+history; the champion trades live. Science experiment, not financial advice.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[jarvis](https://github.com/Jammore1203/jarvis)** · Python<br/>
+My personal agent on the Claude Agent SDK. It lives in Telegram and uses an
+Obsidian vault as long-term memory, with mail, calendar, location, voice
+push-to-talk and a self-model it edits itself.
+
+</td>
+<td width="50%" valign="top">
+
+**[git-autosync](https://github.com/Jammore1203/git-autosync)** · Bash<br/>
+Hourly commit-and-push via a systemd timer that refuses to leak: secret
+scanning, a private denylist, a size cap and desktop notifications.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[dotfiles](https://github.com/Jammore1203/dotfiles)** · Gruvbox Plasma rice<br/>
+kitty, starship, EasyEffects EQ for the Fidelio X3, and K95 G-key macros.
+
+</td>
+<td width="50%" valign="top">
+
+**[pacman](https://github.com/Jammore1203/pacman)** · JavaScript<br/>
+Pac-Man, but with guns, generated maps and a leaderboard.
+
+</td>
+</tr>
+</table>
+
+### ▸ stack
+
+![Rust](https://img.shields.io/badge/Rust-282828?style=flat-square&logo=rust&logoColor=fe8019)
+![Python](https://img.shields.io/badge/Python-282828?style=flat-square&logo=python&logoColor=fabd2f)
+![PHP](https://img.shields.io/badge/PHP-282828?style=flat-square&logo=php&logoColor=83a598)
+![C#](https://img.shields.io/badge/C%23-282828?style=flat-square&logo=dotnet&logoColor=d3869b)
+![JavaScript](https://img.shields.io/badge/JavaScript-282828?style=flat-square&logo=javascript&logoColor=fabd2f)
+![PyTorch](https://img.shields.io/badge/PyTorch-282828?style=flat-square&logo=pytorch&logoColor=fb4934)
+![Laravel](https://img.shields.io/badge/Laravel-282828?style=flat-square&logo=laravel&logoColor=fb4934)
+![MySQL](https://img.shields.io/badge/MySQL-282828?style=flat-square&logo=mysql&logoColor=83a598)
+![Figma](https://img.shields.io/badge/Figma-282828?style=flat-square&logo=figma&logoColor=d3869b)
+![Blender](https://img.shields.io/badge/Blender-282828?style=flat-square&logo=blender&logoColor=fe8019)
+![Arduino](https://img.shields.io/badge/Arduino-282828?style=flat-square&logo=arduino&logoColor=8ec07c)
+![Docker](https://img.shields.io/badge/Docker-282828?style=flat-square&logo=docker&logoColor=83a598)
+![MariaDB](https://img.shields.io/badge/MariaDB-282828?style=flat-square&logo=mariadb&logoColor=ebdbb2)
+![Arch](https://img.shields.io/badge/Arch-282828?style=flat-square&logo=archlinux&logoColor=83a598)
+![KDE](https://img.shields.io/badge/Plasma-282828?style=flat-square&logo=kde&logoColor=b8bb26)
+![Claude](https://img.shields.io/badge/Claude_Agent_SDK-282828?style=flat-square&logo=anthropic&logoColor=fe8019)
+
+### ▸ stats
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jammore1203&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jammore1203&layout=compact&theme=gruvbox&hide_border=true&langs_count=8" />
+<br/>
+<img src="https://streak-stats.demolab.com?user=Jammore1203&theme=gruvbox&hide_border=true" />
+</div>
+
+<div align="center"><img src="https://komarev.com/ghpvc/?username=jammore1203&label=views&color=282828&style=flat-square" alt="views"/><br/><sub><code>:wq</code></sub></div>
