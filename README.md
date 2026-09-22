@@ -13,13 +13,13 @@
 joe@jammore1203
 ───────────────────────────────
 OS        Arch Linux · KDE Plasma (gruvbox, obviously)
-Role      Developer @ RedFox Software Solutions
+Role      Founder @ RedFox Software Solutions || Developer @ 360 Software Solutions
 Langs     Rust · Python · PHP · C# · JavaScript · Bash
 Into      agents · game dev · simulation · modding · self-hosting
 Now       Jarvis, a personal agent with a real memory
 Editor    Neovim + Claude Code
 Location  UK 🇬🇧
-Web       josephcreasy.co.uk
+Web       josephcreasy.co.uk || redfoxss.co.uk
 ```
 
 ### ▸ things I've built
