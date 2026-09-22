@@ -16,7 +16,7 @@ OS        Arch Linux · KDE Plasma (gruvbox, obviously)
 Role      Founder @ RedFox Software Solutions || Developer @ 360 Software Solutions
 Langs     Rust · Python · PHP · C# · JavaScript · Bash
 Into      agents · game dev · simulation · modding · self-hosting
-Now       Jarvis, a personal agent with a real memory
+Now       RedFox · Cratess · Jarvis
 Editor    Neovim + Claude Code
 Location  UK 🇬🇧
 Web       josephcreasy.co.uk || redfoxss.co.uk
@@ -25,6 +25,24 @@ Web       josephcreasy.co.uk || redfoxss.co.uk
 ### ▸ things I've built
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+**[RedFox](https://redfoxss.co.uk)** · PHP · Docker · MariaDB<br/>
+My web agency, running on a multi-tenant CMS I built solo, Shopify-style: one
+codebase serving every client site, each with its own theme, pages and admin.
+30+ sites built on it for small UK businesses.
+
+</td>
+<td width="50%" valign="top">
+
+**[Cratess](https://cratess.com)** · PHP · MariaDB · Stripe<br/>
+A free browser stock-market game with rubber ducks. Open crates to pull ducks across
+7 rarity tiers, trade them on a live player-driven order book against NPC market
+makers, then fuse dupes, run auctions, form clans and play mini-games. [Play it →](https://cratess.com)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
