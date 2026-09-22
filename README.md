@@ -1,125 +1,181 @@
-<!-- gruvbox: bg #282828 · fg #ebdbb2 · red #fb4934 · green #b8bb26 · yellow #fabd2f · blue #83a598 · orange #fe8019 -->
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=FABD2F&center=true&vCenter=true&width=620&lines=hi%2C+I'm+Joe+%F0%9F%91%8B;I+build+weird+things+that+actually+run;Rust+%C2%B7+Python+%C2%B7+PHP+%C2%B7+C%23+%C2%B7+JS;btw+I+use+Arch" alt="typing" />
+<img src="assets/header.svg" width="100%" alt="joe@arch ~ whoami"/>
 
-<br/>
-<a href="https://josephcreasy.co.uk"><img src="https://img.shields.io/badge/josephcreasy.co.uk-282828?style=for-the-badge&logo=googlechrome&logoColor=fabd2f" alt="website"/></a>
+<a href="https://josephcreasy.co.uk"><img src="https://img.shields.io/badge/josephcreasy.co.uk-1d2021?style=for-the-badge&logo=gnometerminal&logoColor=fabd2f" alt="website"/></a>
+<a href="https://redfoxss.co.uk"><img src="https://img.shields.io/badge/RedFox-1d2021?style=for-the-badge&logo=firefoxbrowser&logoColor=fb4934" alt="RedFox"/></a>
+<a href="https://cratess.com"><img src="https://img.shields.io/badge/play_Cratess-1d2021?style=for-the-badge&logo=itchdotio&logoColor=fe8019" alt="Cratess"/></a>
+<img src="https://img.shields.io/badge/btw_I_use-Arch-1d2021?style=for-the-badge&logo=archlinux&logoColor=83a598&labelColor=1d2021" alt="arch"/>
+
+<br/><br/>
+
+<img src="assets/numbers.svg" width="100%" alt="50k+ lines shipped · 28k lines of Rust in one game · 138,639 neurons simulated · 30+ sites on one CMS · 0 asset files"/>
 
 </div>
 
-```yaml
-joe@jammore1203
-───────────────────────────────
-OS        Arch Linux · KDE Plasma (gruvbox, obviously)
-Role      Founder @ RedFox Software Solutions || Developer @ 360 Software Solutions
-Langs     Rust · Python · PHP · C# · JavaScript · Bash
-Into      agents · game dev · simulation · modding · self-hosting
-Now       RedFox · Cratess · Jarvis
-Editor    Neovim + Claude Code
-Location  UK 🇬🇧
-Web       josephcreasy.co.uk || redfoxss.co.uk
-```
+<br/>
 
-### ▸ things I've built
+> I build the whole thing: the product, the server it runs on, and the business around it.
+> Founder of **RedFox**, maker of **Cratess**, and I write engines, simulators and AI agents for fun.
+
+## ▸ in production
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[RedFox](https://redfoxss.co.uk)** · PHP · Docker · MariaDB<br/>
-My web agency, running on a multi-tenant CMS I built solo, Shopify-style: one
-codebase serving every client site, each with its own theme, pages and admin.
-30+ sites built on it for small UK businesses.
+<a href="https://redfoxss.co.uk"><img src="assets/redfox.jpg" alt="RedFox website"/></a>
+
+### 🦊 [RedFox](https://redfoxss.co.uk)
+**My web agency, running on a CMS I wrote.** A multi-tenant, Shopify-style platform:
+one PHP codebase serves every client site with its own theme, blocks, admin, shop,
+bookings and contact forms, plus per-tenant CSP, rate limiting and CSRF.
+**30+ sites** built on it. I run the hosting and mail myself.
+
+`PHP` `MariaDB` `Docker` `Apache` `self-hosted mail`
 
 </td>
 <td width="50%" valign="top">
 
-**[Cratess](https://cratess.com)** · PHP · MariaDB · Stripe<br/>
-A free browser stock-market game with rubber ducks. Open crates to pull ducks across
-7 rarity tiers, trade them on a live player-driven order book against NPC market
-makers, then fuse dupes, run auctions, form clans and play mini-games. [Play it →](https://cratess.com)
+<a href="https://cratess.com"><img src="assets/cratess-market.jpg" alt="Cratess market"/></a>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### 🦆 [Cratess](https://cratess.com)
+**A free browser stock-market game, with rubber ducks.** A real **order-book market**
+(bids, asks, spreads) with NPC market makers, crates across **7 rarity tiers**, fusion,
+auctions, clans, gifting, friends/chat, daily streaks, arcade mini-games and Stripe
+payments. Live now, [go play it](https://cratess.com).
 
-**[hardpoint](https://github.com/Jammore1203/hardpoint)** · Rust<br/>
-A 2002-console-style multiplayer arena shooter. 12 maps, 5 modes, 25 weapons,
-objective-playing bots and an authoritative UDP server. **Every** texture,
-mesh, sound and music track is generated procedurally. No asset folder.
-
-</td>
-<td width="50%" valign="top">
-
-**[flybrain-trader](https://github.com/Jammore1203/flybrain-trader)** · Python<br/>
-The whole FlyWire fruit-fly connectome (138k neurons, 15M synapses) simulated on
-the GPU and taught to trade BTC with dopamine. A population evolves on a year of
-history; the champion trades live. Science experiment, not financial advice.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[jarvis](https://github.com/Jammore1203/jarvis)** · Python<br/>
-My personal agent on the Claude Agent SDK. It lives in Telegram and uses an
-Obsidian vault as long-term memory, with mail, calendar, location, voice
-push-to-talk and a self-model it edits itself.
-
-</td>
-<td width="50%" valign="top">
-
-**[git-autosync](https://github.com/Jammore1203/git-autosync)** · Bash<br/>
-Hourly commit-and-push via a systemd timer that refuses to leak: secret
-scanning, a private denylist, a size cap and desktop notifications.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[dotfiles](https://github.com/Jammore1203/dotfiles)** · Gruvbox Plasma rice<br/>
-kitty, starship, EasyEffects EQ for the Fidelio X3, and K95 G-key macros.
-
-</td>
-<td width="50%" valign="top">
-
-**[pacman](https://github.com/Jammore1203/pacman)** · JavaScript<br/>
-Pac-Man, but with guns, generated maps and a leaderboard.
+`PHP MVC` `MariaDB` `Stripe` `cron-driven NPC traders`
 
 </td>
 </tr>
 </table>
 
-### ▸ stack
+## ▸ built for fun (the hard way)
 
-![Rust](https://img.shields.io/badge/Rust-282828?style=flat-square&logo=rust&logoColor=fe8019)
-![Python](https://img.shields.io/badge/Python-282828?style=flat-square&logo=python&logoColor=fabd2f)
-![PHP](https://img.shields.io/badge/PHP-282828?style=flat-square&logo=php&logoColor=83a598)
-![C#](https://img.shields.io/badge/C%23-282828?style=flat-square&logo=dotnet&logoColor=d3869b)
-![JavaScript](https://img.shields.io/badge/JavaScript-282828?style=flat-square&logo=javascript&logoColor=fabd2f)
-![PyTorch](https://img.shields.io/badge/PyTorch-282828?style=flat-square&logo=pytorch&logoColor=fb4934)
-![Laravel](https://img.shields.io/badge/Laravel-282828?style=flat-square&logo=laravel&logoColor=fb4934)
-![MySQL](https://img.shields.io/badge/MySQL-282828?style=flat-square&logo=mysql&logoColor=83a598)
-![Figma](https://img.shields.io/badge/Figma-282828?style=flat-square&logo=figma&logoColor=d3869b)
-![Blender](https://img.shields.io/badge/Blender-282828?style=flat-square&logo=blender&logoColor=fe8019)
-![Arduino](https://img.shields.io/badge/Arduino-282828?style=flat-square&logo=arduino&logoColor=8ec07c)
-![Docker](https://img.shields.io/badge/Docker-282828?style=flat-square&logo=docker&logoColor=83a598)
-![MariaDB](https://img.shields.io/badge/MariaDB-282828?style=flat-square&logo=mariadb&logoColor=ebdbb2)
-![Arch](https://img.shields.io/badge/Arch-282828?style=flat-square&logo=archlinux&logoColor=83a598)
-![KDE](https://img.shields.io/badge/Plasma-282828?style=flat-square&logo=kde&logoColor=b8bb26)
-![Claude](https://img.shields.io/badge/Claude_Agent_SDK-282828?style=flat-square&logo=anthropic&logoColor=fe8019)
+<table>
+<tr>
+<td width="33%" valign="top">
 
-### ▸ stats
+### 🔫 [hardpoint](https://github.com/Jammore1203/hardpoint)
+A 2002-console-style multiplayer arena FPS in **28k lines of Rust**. 12 maps, 5 modes,
+25 weapons, bots that play the objective, authoritative UDP netcode.
+**Every texture, mesh, sound and music track is generated in code.** No asset folder.
+
+</td>
+<td width="33%" valign="top">
+
+### 🪰 [flybrain-trader](https://github.com/Jammore1203/flybrain-trader)
+A **complete fruit-fly brain** (FlyWire: 138,639 neurons, 15M synapses) simulated
+on the GPU, rewarded with dopamine for good trades. A population **evolves** on a year
+of BTC history, and the champion trades live.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 [jarvis](https://github.com/Jammore1203/jarvis)
+My personal AI agent on the **Claude Agent SDK**. Lives in Telegram, talks back with
+local TTS, reads mail/calendar/location, and keeps an Obsidian vault as memory.
+It also **rewrites its own self-model**.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🔁 [git-autosync](https://github.com/Jammore1203/git-autosync)
+Hourly commit+push on a systemd timer, which **refuses to leak**: secret scanning,
+per-repo denylists, size caps, desktop alerts.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎨 [dotfiles](https://github.com/Jammore1203/dotfiles)
+Gruvbox everything on Arch + Plasma. kitty, starship, a hand-tuned EQ for my
+headphones, and K95 G-key macros.
+
+</td>
+<td width="33%" valign="top">
+
+### 👾 [pacman](https://github.com/Jammore1203/pacman)
+Pac-Man, but with guns. Generated maps, a hotbar and a leaderboard, in vanilla JS.
+
+</td>
+</tr>
+</table>
+
+## ▸ `cat joe.rs`
+
+```rust
+pub struct Joe {
+    based_in:   &'static str,
+    runs:       [&'static str; 2],
+    daily:      Vec<&'static str>,
+    currently:  &'static str,
+    philosophy: &'static str,
+}
+
+impl Default for Joe {
+    fn default() -> Self {
+        Joe {
+            based_in:   "UK 🇬🇧",
+            runs:       ["RedFox Software Solutions", "Cratess"],
+            daily:      vec!["Rust", "Python", "PHP", "C#", "JS", "Bash", "SQL"],
+            currently:  "getting RedFox clients + teaching an agent to be useful",
+            philosophy: "if it doesn't run in production, it doesn't count",
+        }
+    }
+}
+```
+
+## ▸ stack
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jammore1203&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jammore1203&layout=compact&theme=gruvbox&hide_border=true&langs_count=8" />
+
+![Rust](https://img.shields.io/badge/Rust-1d2021?style=flat-square&logo=rust&logoColor=fe8019)
+![Python](https://img.shields.io/badge/Python-1d2021?style=flat-square&logo=python&logoColor=fabd2f)
+![PHP](https://img.shields.io/badge/PHP-1d2021?style=flat-square&logo=php&logoColor=83a598)
+![Laravel](https://img.shields.io/badge/Laravel-1d2021?style=flat-square&logo=laravel&logoColor=fb4934)
+![C#](https://img.shields.io/badge/C%23-1d2021?style=flat-square&logo=dotnet&logoColor=d3869b)
+![JavaScript](https://img.shields.io/badge/JavaScript-1d2021?style=flat-square&logo=javascript&logoColor=fabd2f)
+![PyTorch](https://img.shields.io/badge/PyTorch-1d2021?style=flat-square&logo=pytorch&logoColor=fb4934)
+![Claude](https://img.shields.io/badge/Claude_Agent_SDK-1d2021?style=flat-square&logo=anthropic&logoColor=fe8019)
 <br/>
-<img src="https://streak-stats.demolab.com?user=Jammore1203&theme=gruvbox&hide_border=true" />
+![MariaDB](https://img.shields.io/badge/MariaDB-1d2021?style=flat-square&logo=mariadb&logoColor=ebdbb2)
+![MySQL](https://img.shields.io/badge/MySQL-1d2021?style=flat-square&logo=mysql&logoColor=83a598)
+![Docker](https://img.shields.io/badge/Docker-1d2021?style=flat-square&logo=docker&logoColor=83a598)
+![Apache](https://img.shields.io/badge/Apache-1d2021?style=flat-square&logo=apache&logoColor=fb4934)
+![Stripe](https://img.shields.io/badge/Stripe-1d2021?style=flat-square&logo=stripe&logoColor=d3869b)
+![Arch](https://img.shields.io/badge/Arch-1d2021?style=flat-square&logo=archlinux&logoColor=83a598)
+![Neovim](https://img.shields.io/badge/Neovim-1d2021?style=flat-square&logo=neovim&logoColor=b8bb26)
+![Figma](https://img.shields.io/badge/Figma-1d2021?style=flat-square&logo=figma&logoColor=d3869b)
+![Blender](https://img.shields.io/badge/Blender-1d2021?style=flat-square&logo=blender&logoColor=fe8019)
+![Arduino](https://img.shields.io/badge/Arduino-1d2021?style=flat-square&logo=arduino&logoColor=8ec07c)
+
 </div>
 
-<div align="center"><img src="https://komarev.com/ghpvc/?username=jammore1203&label=views&color=282828&style=flat-square" alt="views"/><br/><sub><code>:wq</code></sub></div>
+## ▸ numbers
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jammore1203&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&bg_color=1d2021" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jammore1203&layout=compact&theme=gruvbox&hide_border=true&langs_count=8&bg_color=1d2021" />
+<br/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Jammore1203&bg_color=1d2021&color=ebdbb2&line=fe8019&point=fabd2f&area=true&area_color=fe8019&hide_border=true&radius=12" />
+<br/>
+<img src="https://streak-stats.demolab.com?user=Jammore1203&theme=gruvbox&hide_border=true&background=1d2021" />
+</div>
+
+## ▸ lately
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/Jammore1203/Jammore1203/output/snake.svg" alt="snake eating my contributions"/>
+
+<img src="https://komarev.com/ghpvc/?username=jammore1203&label=views&color=1d2021&style=flat-square" alt="views"/>
+
+<sub><code>:wq</code></sub>
+
+</div>
