@@ -157,10 +157,7 @@ impl Default for Joe {
 ## ▸ numbers
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jammore1203&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&bg_color=1d2021" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jammore1203&layout=compact&theme=gruvbox&hide_border=true&langs_count=8&bg_color=1d2021" />
-<br/>
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Jammore1203&bg_color=1d2021&color=ebdbb2&line=fe8019&point=fabd2f&area=true&area_color=fe8019&hide_border=true&radius=12" />
+
 <br/>
 <img src="https://streak-stats.demolab.com?user=Jammore1203&theme=gruvbox&hide_border=true&background=1d2021" />
 </div>
