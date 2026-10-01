@@ -102,6 +102,17 @@ Pac-Man, but with guns. Generated maps, a hotbar and a leaderboard, in vanilla J
 
 </td>
 </tr>
+<tr>
+<td colspan="3" valign="top">
+
+### ⚔️ [questlog](https://github.com/Jammore1203/Cobol)
+A **LARP battle chronicler in COBOL**. A classic batch job that replays the field marshal's
+event log (sword hits, spells, heals, resurrections, loot), enforces the rules, voids illegal
+calls ("the fallen cannot act - lie down!") and prints the battle report with HP bars.
+Copybooks, `OCCURS DEPENDING ON`, `SEARCH`, 88-levels, and a golden-output test in CI.
+
+</td>
+</tr>
 </table>
 
 ## ▸ `cat joe.rs`
@@ -151,6 +162,7 @@ impl Default for Joe {
 ![Figma](https://img.shields.io/badge/Figma-1d2021?style=flat-square&logo=figma&logoColor=d3869b)
 ![Blender](https://img.shields.io/badge/Blender-1d2021?style=flat-square&logo=blender&logoColor=fe8019)
 ![Arduino](https://img.shields.io/badge/Arduino-1d2021?style=flat-square&logo=arduino&logoColor=8ec07c)
+![COBOL](https://img.shields.io/badge/COBOL-1d2021?style=flat-square&logo=ibm&logoColor=83a598)
 
 </div>
 
