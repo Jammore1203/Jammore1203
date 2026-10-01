@@ -241,6 +241,9 @@ impl Default for Joe {
 ## ▸ lately
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/Jammore1203/Cobol/pull/1) in [Jammore1203/Cobol](https://github.com/Jammore1203/Cobol)
+2. 💪 Opened PR [#1](https://github.com/Jammore1203/Cobol/pull/1) in [Jammore1203/Cobol](https://github.com/Jammore1203/Cobol)
+3. ℹ️ Assigned PR [#1](https://github.com/Jammore1203/Cobol/pull/1) in [Jammore1203/Cobol](https://github.com/Jammore1203/Cobol)
 <!--END_SECTION:activity-->
 
 <div align="center">
