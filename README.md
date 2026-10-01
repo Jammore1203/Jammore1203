@@ -102,14 +102,70 @@ Pac-Man, but with guns. Generated maps, a hotbar and a leaderboard, in vanilla J
 
 </td>
 </tr>
-<tr>
-<td colspan="3" valign="top">
+</table>
 
-### ⚔️ [questlog](https://github.com/Jammore1203/Cobol)
-A **LARP battle chronicler in COBOL**. A classic batch job that replays the field marshal's
-event log (sword hits, spells, heals, resurrections, loot), enforces the rules, voids illegal
-calls ("the fallen cannot act - lie down!") and prints the battle report with HP bars.
-Copybooks, `OCCURS DEPENDING ON`, `SEARCH`, 88-levels, and a golden-output test in CI.
+## ▸ small tools, unusual languages
+
+Each one is a small, useful command-line tool with tests and CI, written in a language people rarely pick.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**📊 [fstat](https://github.com/Jammore1203/fstat)** · `Fortran`<br/>
+Mean, percentiles, stddev and a histogram for any column of numbers. Welford variance, merge sort.
+
+</td>
+<td width="33%" valign="top">
+
+**⏰ [cronnext](https://github.com/Jammore1203/cronnext)** · `Ada`<br/>
+Explains a cron expression and lists its next run times. Pure calendar maths, no time-zone traps.
+
+</td>
+<td width="33%" valign="top">
+
+**🔍 [hexview](https://github.com/Jammore1203/hexview)** · `Pascal`<br/>
+<code>hexdump -C</code>-identical dumps plus streaming byte-pattern search with <code>??</code> wildcards.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🧬 [dupefind](https://github.com/Jammore1203/dupefind)** · `Zig`<br/>
+Duplicate-file finder: size, then first-4K BLAKE3, then full hash. Knows hard links aren't dupes.
+
+</td>
+<td width="33%" valign="top">
+
+**🗃️ [csvq](https://github.com/Jammore1203/csvq)** · `Haskell`<br/>
+<code>csvq sales.csv where region = North sort revenue desc</code>. Hand-written RFC 4180 parser.
+
+</td>
+<td width="33%" valign="top">
+
+**🔗 [linkcheck](https://github.com/Jammore1203/linkcheck)** · `Elixir`<br/>
+Dead-link checker for Markdown. Concurrent with <code>Task.async_stream</code>, CI-friendly exit codes.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🧩 [pkgsolve](https://github.com/Jammore1203/pkgsolve)** · `Prolog`<br/>
+Semver dependency resolver. Backtracking does the search, and it explains the conflict when nothing fits.
+
+</td>
+<td width="33%" valign="top">
+
+**🧮 [rpncalc](https://github.com/Jammore1203/rpncalc)** · `Forth`<br/>
+Programmer's RPN calculator: every result in dec/hex/oct/bin, bit ops, byte swaps, units.
+
+</td>
+<td width="33%" valign="top">
+
+**⚔️ [questlog](https://github.com/Jammore1203/Cobol)** · `COBOL`<br/>
+Batch job that replays a LARP battle log, enforces the rules and prints the chronicle.
 
 </td>
 </tr>
@@ -163,6 +219,14 @@ impl Default for Joe {
 ![Blender](https://img.shields.io/badge/Blender-1d2021?style=flat-square&logo=blender&logoColor=fe8019)
 ![Arduino](https://img.shields.io/badge/Arduino-1d2021?style=flat-square&logo=arduino&logoColor=8ec07c)
 ![COBOL](https://img.shields.io/badge/COBOL-1d2021?style=flat-square&logo=ibm&logoColor=83a598)
+![Fortran](https://img.shields.io/badge/Fortran-1d2021?style=flat-square&logo=fortran&logoColor=734f96)
+![Ada](https://img.shields.io/badge/Ada-1d2021?style=flat-square&logo=ada&logoColor=b8bb26)
+![Pascal](https://img.shields.io/badge/Pascal-1d2021?style=flat-square&logo=delphi&logoColor=fb4934)
+![Zig](https://img.shields.io/badge/Zig-1d2021?style=flat-square&logo=zig&logoColor=fabd2f)
+![Haskell](https://img.shields.io/badge/Haskell-1d2021?style=flat-square&logo=haskell&logoColor=d3869b)
+![Elixir](https://img.shields.io/badge/Elixir-1d2021?style=flat-square&logo=elixir&logoColor=d3869b)
+![Prolog](https://img.shields.io/badge/Prolog-1d2021?style=flat-square&logo=prolog&logoColor=fe8019)
+![Forth](https://img.shields.io/badge/Forth-1d2021?style=flat-square)
 
 </div>
 
